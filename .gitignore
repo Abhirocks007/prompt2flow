@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+data
+.venv
+.DS_Store
+*.log
+__pycache__
+*.pyc
+auto-evidence-assets
+tsconfig.tsbuildinfo

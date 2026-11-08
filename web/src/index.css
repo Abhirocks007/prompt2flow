@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  --color-canvas: #09090b;
+  --color-panel: #111113;
+  --color-card: #17171b;
+  --color-raised: #1c1c21;
+  --color-line: #2a2a32;
+  --color-muted: #9a9aa3;
+  --color-ink: #ececf1;
+  --color-accent: #c4b5fd;
+  --color-accent-strong: #a78bfa;
+  --color-reply: #7dd3fc;
+  --color-ok: #4ade80;
+  --color-danger: #f87171;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2e2e36 transparent;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.react-flow__attribution {
+  display: none;
+}
